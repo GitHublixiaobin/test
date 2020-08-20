@@ -3,7 +3,7 @@ const $ = {
   getp: function (params) {
     console.log("我成功的获取了参数");
   },
-  valid: function (reg, str) {
-    console.log(reg.test(str));
+  charTransfer: function (params) {
+    console.log(params.toUpperCase());
   },
 };
